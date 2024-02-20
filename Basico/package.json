@@ -1,0 +1,21 @@
+{
+  "name": "basico",
+  "version": "1.0.0",
+  "description": "\"Aplicativo básico do NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pw2_Node_introb"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Mariakallyn",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
