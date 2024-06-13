@@ -5,7 +5,7 @@ require('dotenv').config()
 const sequelize = new Sequelize("ideias_db",
 process.env.AZURE_USER_MYSQL,
 process.env.AZURE_SENHA_MYSQL, {
-    host: process.env.AZURE_URL_MYSQL,
+    host: process.env.AZURE_SENHA_MYSQL,
     dialect: 'mysql',
     dialectOptions: {
         ssl: {
